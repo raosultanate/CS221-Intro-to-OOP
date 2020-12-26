@@ -1,0 +1,269 @@
+<html>
+<head>
+<title>TestNG:  SortTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SortTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 13 17:18:20 MST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (213 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SortTest.testSortComparator_A()'><b>testSortComparator_A</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_AA()'><b>testSortComparator_AA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_AAB()'><b>testSortComparator_AAB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_AB()'><b>testSortComparator_AB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_ABA()'><b>testSortComparator_ABA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_ABC()'><b>testSortComparator_ABC</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_ACB()'><b>testSortComparator_ACB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_BA()'><b>testSortComparator_BA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_BAA()'><b>testSortComparator_BAA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_BAB()'><b>testSortComparator_BAB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_BAC()'><b>testSortComparator_BAC</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_BCA()'><b>testSortComparator_BCA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_BDAC()'><b>testSortComparator_BDAC</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_BigList()'><b>testSortComparator_BigList</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_CAB()'><b>testSortComparator_CAB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_CACB()'><b>testSortComparator_CACB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_CADB()'><b>testSortComparator_CADB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_CBA()'><b>testSortComparator_CBA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSortComparator_newList()'><b>testSortComparator_newList</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_A()'><b>testSort_A</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_AA()'><b>testSort_AA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_AAB()'><b>testSort_AAB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_AB()'><b>testSort_AB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_ABA()'><b>testSort_ABA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_ABC()'><b>testSort_ABC</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_ACB()'><b>testSort_ACB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_BA()'><b>testSort_BA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_BAA()'><b>testSort_BAA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_BAB()'><b>testSort_BAB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_BAC()'><b>testSort_BAC</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_BCA()'><b>testSort_BCA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_BDAC()'><b>testSort_BDAC</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_BigList()'><b>testSort_BigList</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_CAB()'><b>testSort_CAB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_CACB()'><b>testSort_CACB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_CADB()'><b>testSort_CADB</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_CBA()'><b>testSort_CBA</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+<tr>
+<td title='SortTest.testSort_newList()'><b>testSort_newList</b><br>Test class: SortTest</td>
+<td></td>
+<td>0</td>
+<td>SortTest@6a03bcb1</td></tr>
+</table><p>
+</body>
+</html>

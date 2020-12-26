@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Simple Set]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ArraySet(failed)">
+    <classes>
+      <class name="TestSimpleSet_10">
+        <methods>
+          <include name="testToString"/>
+          <include name="testIsEmpty"/>
+          <include name="testRemove_validElements"/>
+          <include name="testSize"/>
+          <include name="testContains_invalidElement"/>
+          <include name="initializeSet"/>
+          <include name="testAdd_validElement"/>
+          <include name="testContains_validElement"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testAdd_element"/>
+        </methods>
+      </class> <!-- TestSimpleSet_10 -->
+      <class name="TestSimpleSet_11">
+        <methods>
+          <include name="testIsEmpty"/>
+          <include name="testContains_validElement"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testSize"/>
+          <include name="testRemove_validElements"/>
+          <include name="testAdd_element"/>
+          <include name="testContains_invalidElement"/>
+          <include name="initializeSet"/>
+          <include name="testAdd_validElement"/>
+          <include name="testToString"/>
+        </methods>
+      </class> <!-- TestSimpleSet_11 -->
+      <class name="TestSimpleSet_9">
+        <methods>
+          <include name="testAdd_element"/>
+          <include name="testContains_validElement"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testAdd_validElement"/>
+          <include name="testContains_invalidElement"/>
+          <include name="initializeSet"/>
+          <include name="testSize"/>
+          <include name="testIsEmpty"/>
+          <include name="testRemove_validElements"/>
+          <include name="testToString"/>
+        </methods>
+      </class> <!-- TestSimpleSet_9 -->
+      <class name="TestSimpleSet_8">
+        <methods>
+          <include name="testRemove_validElements" invocation-numbers="0 1 2"/>
+          <include name="initializeSet"/>
+        </methods>
+      </class> <!-- TestSimpleSet_8 -->
+    </classes>
+  </test> <!-- ArraySet(failed) -->
+</suite> <!-- Failed suite [Simple Set] -->

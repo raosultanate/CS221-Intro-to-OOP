@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Iterator]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IUArrayList(failed)">
+    <parameter name="listType" value="arrayList"/>
+    <classes>
+      <class name="ItrTest_22_AB_addAfterCA_ACB">
+        <methods>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNext_next"/>
+          <include name="initList"/>
+          <include name="testItrNextRemoveNext_next"/>
+        </methods>
+      </class> <!-- ItrTest_22_AB_addAfterCA_ACB -->
+    </classes>
+  </test> <!-- IUArrayList(failed) -->
+</suite> <!-- Failed suite [Iterator] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Iterator]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IUSingleList(failed)">
+    <parameter name="listType" value="singleLinkedList"/>
+    <classes>
+      <class name="ItrTest_7_A_removeLast_emptyList">
+        <methods>
+          <include name="testItr_hasNext"/>
+          <include name="initList"/>
+          <include name="testItr_next"/>
+        </methods>
+      </class> <!-- ItrTest_7_A_removeLast_emptyList -->
+    </classes>
+  </test> <!-- IUSingleList(failed) -->
+</suite> <!-- Failed suite [Iterator] -->

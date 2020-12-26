@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sort Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SortTest(failed)">
+    <parameter name="listType" value="IUDoubleLinkedList"/>
+    <classes>
+      <class name="SortTest">
+        <methods>
+          <include name="testSort_BigList"/>
+          <include name="testSortComparator_BDAC"/>
+          <include name="testSort_AB"/>
+          <include name="testSort_BAC"/>
+          <include name="testSort_CAB"/>
+          <include name="testSort_CACB"/>
+          <include name="testSort_AAB"/>
+          <include name="testSort_BAA"/>
+          <include name="testSortComparator_CADB"/>
+          <include name="testSort_BAB"/>
+          <include name="testSort_ACB"/>
+          <include name="testSort_BCA"/>
+          <include name="testSortComparator_ABA"/>
+          <include name="testSortComparator_BA"/>
+          <include name="testSortComparator_ABC"/>
+          <include name="testSortComparator_CBA"/>
+          <include name="testSortComparator_BigList"/>
+          <include name="testSort_newList"/>
+          <include name="testSortComparator_A"/>
+          <include name="testSort_AA"/>
+          <include name="testSort_CADB"/>
+          <include name="testSortComparator_CACB"/>
+          <include name="testSort_ABC"/>
+          <include name="testSort_CBA"/>
+          <include name="testSort_ABA"/>
+          <include name="testSort_BDAC"/>
+          <include name="testSortComparator_AB"/>
+          <include name="init"/>
+          <include name="testSortComparator_AA"/>
+          <include name="testSortComparator_ACB"/>
+          <include name="testSortComparator_BCA"/>
+          <include name="testSortComparator_BAB"/>
+          <include name="testSortComparator_AAB"/>
+          <include name="testSortComparator_BAA"/>
+          <include name="testSort_BA"/>
+          <include name="testSortComparator_BAC"/>
+          <include name="testSortComparator_CAB"/>
+          <include name="testSortComparator_newList"/>
+          <include name="testSort_A"/>
+        </methods>
+      </class> <!-- SortTest -->
+    </classes>
+  </test> <!-- SortTest(failed) -->
+</suite> <!-- Failed suite [Sort Testing] -->

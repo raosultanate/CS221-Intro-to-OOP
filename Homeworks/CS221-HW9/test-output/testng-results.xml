@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="38" passed="38" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-13T17:18:20 MST" name="Sort Testing" finished-at="2019-12-13T17:18:20 MST" duration-ms="213">
+    <groups>
+    </groups>
+    <test started-at="2019-12-13T17:18:20 MST" name="SortTest" finished-at="2019-12-13T17:18:20 MST" duration-ms="213">
+      <class name="SortTest">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="init" finished-at="2019-12-13T17:18:20 MST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WrappedDLL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testSortComparator_A()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_A" finished-at="2019-12-13T17:18:20 MST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_A -->
+        <test-method signature="testSortComparator_AA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_AA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_AA -->
+        <test-method signature="testSortComparator_AAB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_AAB" finished-at="2019-12-13T17:18:20 MST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_AAB -->
+        <test-method signature="testSortComparator_AB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_AB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_AB -->
+        <test-method signature="testSortComparator_ABA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_ABA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_ABA -->
+        <test-method signature="testSortComparator_ABC()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_ABC" finished-at="2019-12-13T17:18:20 MST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_ABC -->
+        <test-method signature="testSortComparator_ACB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_ACB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_ACB -->
+        <test-method signature="testSortComparator_BA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_BA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_BA -->
+        <test-method signature="testSortComparator_BAA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_BAA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_BAA -->
+        <test-method signature="testSortComparator_BAB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_BAB" finished-at="2019-12-13T17:18:20 MST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_BAB -->
+        <test-method signature="testSortComparator_BAC()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_BAC" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_BAC -->
+        <test-method signature="testSortComparator_BCA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_BCA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_BCA -->
+        <test-method signature="testSortComparator_BDAC()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_BDAC" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_BDAC -->
+        <test-method signature="testSortComparator_BigList()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_BigList" finished-at="2019-12-13T17:18:20 MST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_BigList -->
+        <test-method signature="testSortComparator_CAB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_CAB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_CAB -->
+        <test-method signature="testSortComparator_CACB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_CACB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_CACB -->
+        <test-method signature="testSortComparator_CADB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_CADB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_CADB -->
+        <test-method signature="testSortComparator_CBA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_CBA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_CBA -->
+        <test-method signature="testSortComparator_newList()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSortComparator_newList" finished-at="2019-12-13T17:18:20 MST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortComparator_newList -->
+        <test-method signature="testSort_A()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_A" finished-at="2019-12-13T17:18:20 MST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_A -->
+        <test-method signature="testSort_AA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_AA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_AA -->
+        <test-method signature="testSort_AAB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_AAB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_AAB -->
+        <test-method signature="testSort_AB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_AB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_AB -->
+        <test-method signature="testSort_ABA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_ABA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_ABA -->
+        <test-method signature="testSort_ABC()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_ABC" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_ABC -->
+        <test-method signature="testSort_ACB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_ACB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_ACB -->
+        <test-method signature="testSort_BA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_BA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_BA -->
+        <test-method signature="testSort_BAA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_BAA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_BAA -->
+        <test-method signature="testSort_BAB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_BAB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_BAB -->
+        <test-method signature="testSort_BAC()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_BAC" finished-at="2019-12-13T17:18:20 MST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_BAC -->
+        <test-method signature="testSort_BCA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_BCA" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_BCA -->
+        <test-method signature="testSort_BDAC()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_BDAC" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_BDAC -->
+        <test-method signature="testSort_BigList()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_BigList" finished-at="2019-12-13T17:18:20 MST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_BigList -->
+        <test-method signature="testSort_CAB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_CAB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_CAB -->
+        <test-method signature="testSort_CACB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_CACB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_CACB -->
+        <test-method signature="testSort_CADB()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_CADB" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_CADB -->
+        <test-method signature="testSort_CBA()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_CBA" finished-at="2019-12-13T17:18:20 MST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_CBA -->
+        <test-method signature="testSort_newList()[pri:0, instance:SortTest@6a03bcb1]" started-at="2019-12-13T17:18:20 MST" name="testSort_newList" finished-at="2019-12-13T17:18:20 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_newList -->
+      </class> <!-- SortTest -->
+    </test> <!-- SortTest -->
+  </suite> <!-- Sort Testing -->
+</testng-results>

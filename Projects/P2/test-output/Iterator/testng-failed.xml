@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Iterator]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IUSingleList(failed)">
+    <parameter name="listType" value="singleLinkedList"/>
+    <classes>
+      <class name="ItrTest_17_AB_removeLast_A">
+        <methods>
+          <include name="testItr_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_17_AB_removeLast_A -->
+      <class name="ItrTest_10_A_addToRearB_AB">
+        <methods>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="initList"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItr_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_10_A_addToRearB_AB -->
+      <class name="ItrTest_16_AB_removeFirst_B">
+        <methods>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+        </methods>
+      </class> <!-- ItrTest_16_AB_removeFirst_B -->
+      <class name="ItrTest_7_A_removeLast_emptyList">
+        <methods>
+          <include name="testItr_hasNext"/>
+          <include name="initList"/>
+          <include name="testItr_remove"/>
+          <include name="testItr_next"/>
+        </methods>
+      </class> <!-- ItrTest_7_A_removeLast_emptyList -->
+      <class name="ItrTest_31_AB_add2C_ABC">
+        <methods>
+          <include name="testItrNextNextNext_next"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextNextNextRemove_next"/>
+          <include name="initList"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItrNextNextNext_remove"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItrNext_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_31_AB_add2C_ABC -->
+      <class name="ItrTest_39_ABC_remove2_AB">
+        <methods>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="initList"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_next"/>
+        </methods>
+      </class> <!-- ItrTest_39_ABC_remove2_AB -->
+      <class name="ItrTest_30_AB_add1C_ACB">
+        <methods>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextNext_next"/>
+          <include name="initList"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextNextNextRemove_next"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextNextNext_remove"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_30_AB_add1C_ACB -->
+      <class name="ItrTest_24_AB_remove0_B">
+        <methods>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItr_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_24_AB_remove0_B -->
+      <class name="ItrTest_34_ABC_removeA_BC">
+        <methods>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItr_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextRemoveNext_remove"/>
+        </methods>
+      </class> <!-- ItrTest_34_ABC_removeA_BC -->
+      <class name="ItrTest_11_A_addAfterBA_AB">
+        <methods>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNext_remove"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_11_A_addAfterBA_AB -->
+      <class name="ItrTest_1_emptyList">
+        <methods>
+          <include name="testItr_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="initList"/>
+          <include name="testItr_remove"/>
+        </methods>
+      </class> <!-- ItrTest_1_emptyList -->
+      <class name="ItrTest_22_AB_addAfterCA_ACB">
+        <methods>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNextNext_remove"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItrNextNextNextRemove_next"/>
+          <include name="testItr_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextNext_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_22_AB_addAfterCA_ACB -->
+      <class name="ItrTest_5_emptyList_add0A_A">
+        <methods>
+          <include name="testItrNext_remove"/>
+          <include name="testItr_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_5_emptyList_add0A_A -->
+      <class name="ItrTest_27_AB_set1C_AC">
+        <methods>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNext_remove"/>
+          <include name="initList"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+        </methods>
+      </class> <!-- ItrTest_27_AB_set1C_AC -->
+      <class name="ItrTest_25_AB_remove1_A">
+        <methods>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNext_next"/>
+          <include name="testItr_remove"/>
+        </methods>
+      </class> <!-- ItrTest_25_AB_remove1_A -->
+      <class name="ItrTest_26_AB_set0C_CB">
+        <methods>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNext_remove"/>
+          <include name="initList"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+        </methods>
+      </class> <!-- ItrTest_26_AB_set0C_CB -->
+      <class name="ItrTest_28_AB_addC_ABC">
+        <methods>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextNextNextRemove_next"/>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNextNext_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+        </methods>
+      </class> <!-- ItrTest_28_AB_addC_ABC -->
+      <class name="ItrTest_37_ABC_remove0_BC">
+        <methods>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNext_remove"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_37_ABC_remove0_BC -->
+      <class name="ItrTest_20_AB_addToFrontC_CAB">
+        <methods>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextNext_next"/>
+          <include name="testItr_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNextNextNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItrNextNextNext_remove"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItr_next"/>
+        </methods>
+      </class> <!-- ItrTest_20_AB_addToFrontC_CAB -->
+      <class name="ItrTest_42_ABC_set2D_ABD">
+        <methods>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNextNext_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextNextNextRemove_next"/>
+        </methods>
+      </class> <!-- ItrTest_42_ABC_set2D_ABD -->
+      <class name="ItrTest_4_emptyList_addA_A">
+        <methods>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNext_next"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItr_next"/>
+        </methods>
+      </class> <!-- ItrTest_4_emptyList_addA_A -->
+      <class name="ItrTest_8_A_removeA_emptyList">
+        <methods>
+          <include name="testItr_next"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItr_remove"/>
+        </methods>
+      </class> <!-- ItrTest_8_A_removeA_emptyList -->
+      <class name="ItrTest_15_A_add1B_AB">
+        <methods>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNextRemove_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_15_A_add1B_AB -->
+      <class name="ItrTest_14_A_add0B_BA">
+        <methods>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+        </methods>
+      </class> <!-- ItrTest_14_A_add0B_BA -->
+      <class name="ItrTest_9_A_addToFrontB_BA">
+        <methods>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItr_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="initList"/>
+          <include name="testItrNext_remove"/>
+        </methods>
+      </class> <!-- ItrTest_9_A_addToFrontB_BA -->
+      <class name="ItrTest_33_ABC_removeLast_AB">
+        <methods>
+          <include name="testItr_next"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItr_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_33_ABC_removeLast_AB -->
+      <class name="ItrTest_40_ABC_set0D_DBC">
+        <methods>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNextNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="initList"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextNextNextRemove_next"/>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextNextNext_remove"/>
+        </methods>
+      </class> <!-- ItrTest_40_ABC_set0D_DBC -->
+      <class name="ItrTest_18_AB_removeA_B">
+        <methods>
+          <include name="testItr_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItr_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_18_AB_removeA_B -->
+      <class name="ItrTest_29_AB_add0C_CAB">
+        <methods>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextNextNextRemove_next"/>
+          <include name="initList"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItrNextNextNext_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItr_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNext_next"/>
+        </methods>
+      </class> <!-- ItrTest_29_AB_add0C_CAB -->
+      <class name="ItrTest_35_ABC_removeB_AC">
+        <methods>
+          <include name="testItr_next"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="initList"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_35_ABC_removeB_AC -->
+      <class name="ItrTest_36_ABC_removeC_AB">
+        <methods>
+          <include name="initList"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNext_remove"/>
+        </methods>
+      </class> <!-- ItrTest_36_ABC_removeC_AB -->
+      <class name="ItrTest_41_ABC_set1D_ADC">
+        <methods>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNextNextNextRemove_next"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextNextNext_next"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNextNext_remove"/>
+        </methods>
+      </class> <!-- ItrTest_41_ABC_set1D_ADC -->
+      <class name="ItrTest_38_ABC_remove1_AC">
+        <methods>
+          <include name="testItr_next"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItr_remove"/>
+        </methods>
+      </class> <!-- ItrTest_38_ABC_remove1_AC -->
+      <class name="ItrTest_2_emptyList_addToFrontA_A">
+        <methods>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItr_next"/>
+        </methods>
+      </class> <!-- ItrTest_2_emptyList_addToFrontA_A -->
+      <class name="ItrTest_21_AB_addToRearC_ABC">
+        <methods>
+          <include name="testItrNextNextNextRemove_next"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="initList"/>
+          <include name="testItrNextNextNext_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNextNext_remove"/>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItr_next"/>
+        </methods>
+      </class> <!-- ItrTest_21_AB_addToRearC_ABC -->
+      <class name="ItrTest_23_AB_addAfterCB_ABC">
+        <methods>
+          <include name="testItrNextNext_next"/>
+          <include name="testItrNextNextRemoveNext_next"/>
+          <include name="testItr_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextNextNextRemove_hasNext"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextNextNext_remove"/>
+          <include name="testItrNextNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemoveNext_hasNext"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNextNextRemove_remove"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextNextNext_hasNext"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextNextNextRemove_next"/>
+          <include name="testItrNextNextNext_next"/>
+          <include name="initList"/>
+          <include name="testItrNextRemoveNext_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_23_AB_addAfterCB_ABC -->
+      <class name="ItrTest_6_A_removeFirst_emptyList">
+        <methods>
+          <include name="testItr_remove"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItr_next"/>
+        </methods>
+      </class> <!-- ItrTest_6_A_removeFirst_emptyList -->
+      <class name="ItrTest_12_A_remove0_emptyList">
+        <methods>
+          <include name="testItr_next"/>
+          <include name="testItr_remove"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_12_A_remove0_emptyList -->
+      <class name="ItrTest_3_emptyList_addToRearA_A">
+        <methods>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextRemove_next"/>
+        </methods>
+      </class> <!-- ItrTest_3_emptyList_addToRearA_A -->
+      <class name="ItrTest_32_ABC_removeFirst_BC">
+        <methods>
+          <include name="testItrNextRemoveNext_hasNext"/>
+          <include name="testItrNextRemoveNext_remove"/>
+          <include name="testItrNextNextRemove_remove"/>
+          <include name="testItrNextNext_hasNext"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNextRemoveNext_next"/>
+          <include name="testItrNext_remove"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNextNextRemove_hasNext"/>
+          <include name="testItrNextNext_remove"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItrNextNextRemove_next"/>
+          <include name="testItrNextNext_next"/>
+          <include name="testItr_next"/>
+        </methods>
+      </class> <!-- ItrTest_32_ABC_removeFirst_BC -->
+      <class name="ItrTest_19_AB_removeB_A">
+        <methods>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNext_next"/>
+        </methods>
+      </class> <!-- ItrTest_19_AB_removeB_A -->
+      <class name="ItrTest_13_A_set0B_B">
+        <methods>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItr_remove"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+          <include name="testItr_hasNext"/>
+        </methods>
+      </class> <!-- ItrTest_13_A_set0B_B -->
+    </classes>
+  </test> <!-- IUSingleList(failed) -->
+</suite> <!-- Failed suite [Iterator] -->

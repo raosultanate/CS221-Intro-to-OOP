@@ -1,0 +1,2860 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/36</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 03 11:41:40 MST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (156 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1833848849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1833848849'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.initialize()'><b>initialize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td></td>
+<td>-1575398500</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testAdd()'><b>testAdd</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace800281454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace800281454'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testAddAfter_invalidElement()'><b>testAddAfter_invalidElement</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2077528955", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2077528955'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testAddAfter_validElement()'><b>testAddAfter_validElement</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1041365481", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1041365481'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testAddToFront()'><b>testAddToFront</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1922930974", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1922930974'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testAddToRear()'><b>testAddToRear</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace9797126", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9797126'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testAdd_invalidIndex()'><b>testAdd_invalidIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace739973450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace739973450'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testAdd_invalidIndex()'><b>testAdd_invalidIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1727361096", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1727361096'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testAdd_validIndex()'><b>testAdd_validIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace556281560", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace556281560'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testAdd_validIndex()'><b>testAdd_validIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2074820378", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2074820378'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testContains_invalidElement()'><b>testContains_invalidElement</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace599984672", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace599984672'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testContains_validElement()'><b>testContains_validElement</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1022081840", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1022081840'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testFirst()'><b>testFirst</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace688005825", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace688005825'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testGet_invalidIndex()'><b>testGet_invalidIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace103103526", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace103103526'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testGet_invalidIndex()'><b>testGet_invalidIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1906879951", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1906879951'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testGet_validIndex()'><b>testGet_validIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace137225802", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace137225802'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testIndexOf_invalidElement()'><b>testIndexOf_invalidElement</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1374066265", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1374066265'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testIndexOf_validElement()'><b>testIndexOf_validElement</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace538592647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace538592647'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testIsEmpty()'><b>testIsEmpty</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace70323523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace70323523'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testIterator()'><b>testIterator</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace652433136", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace652433136'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testLast()'><b>testLast</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1267655902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1267655902'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testListIterator()'><b>testListIterator</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace454104863", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace454104863'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testListIterator_invalidIndex()'><b>testListIterator_invalidIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace767904468", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace767904468'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testListIterator_invalidIndex()'><b>testListIterator_invalidIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1432569632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1432569632'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testListIterator_validIndex()'><b>testListIterator_validIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1276709283", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1276709283'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testListIterator_validIndex()'><b>testListIterator_validIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace227755469", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace227755469'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testRemoveFirst()'><b>testRemoveFirst</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace690052870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace690052870'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testRemoveLast()'><b>testRemoveLast</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1325056130", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1325056130'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testRemove_invalidElement()'><b>testRemove_invalidElement</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1219273867", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1219273867'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testRemove_invalidIndex()'><b>testRemove_invalidIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace194707680", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace194707680'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testRemove_invalidIndex()'><b>testRemove_invalidIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2102368942", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2102368942'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1424082571", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1424082571'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testRemove_validIndex()'><b>testRemove_validIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1387380406", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1387380406'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testSet_invalidIndex()'><b>testSet_invalidIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2108763062", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2108763062'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testSet_invalidIndex()'><b>testSet_invalidIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace656479172", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace656479172'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testSet_validIndex()'><b>testSet_validIndex</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace124888672", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace124888672'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+<tr>
+<td title='Test_28_AB_removeB_A.testSize()'><b>testSize</b><br>Test class: Test_28_AB_removeB_A</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace37926966", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace37926966'><pre>org.testng.TestNGException: 
+Parameter &apos;listType&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+in /private/var/folders/jn/1xmdp9956hl73gvrq36x_d740000gn/T/testng-eclipse--1819265178/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_28_AB_removeB_A@a1cdc6d</td></tr>
+</table><p>
+</body>
+</html>

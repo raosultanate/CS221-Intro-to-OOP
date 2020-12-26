@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Indexed Unordered List]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IUArrayList(failed)">
+    <parameter name="listType" value="arrayList"/>
+    <classes>
+      <class name="Test_22_AB_add0C_CAB">
+        <methods>
+          <include name="testAddAfter_validElement" invocation-numbers="1"/>
+          <include name="testGet_validIndex" invocation-numbers="1"/>
+          <include name="testRemove_validElement" invocation-numbers="1"/>
+          <include name="testContains_validElement" invocation-numbers="1"/>
+          <include name="testRemove_validIndex" invocation-numbers="1"/>
+          <include name="testIndexOf_validElement" invocation-numbers="1 2"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_22_AB_add0C_CAB -->
+    </classes>
+  </test> <!-- IUArrayList(failed) -->
+</suite> <!-- Failed suite [Indexed Unordered List] -->

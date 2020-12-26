@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IUDoubleLinkedList Iterator and ListIterator Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IUDoubleLinkedList ListIterator Tests(failed)">
+    <parameter name="listType" value="doubleLinkedList"/>
+    <classes>
+      <class name="ListItrTest_31_AB_add2C_ABC">
+        <methods>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_31_AB_add2C_ABC -->
+      <class name="ListItrTest_25_AB_remove1_A">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_25_AB_remove1_A -->
+      <class name="ListItrTest_13_A_set0B_B">
+        <methods>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="initList"/>
+          <include name="testListItrNextAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_13_A_set0B_B -->
+      <class name="ListItrTest_5_emptyList_add0A_A">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ListItrTest_5_emptyList_add0A_A -->
+      <class name="ListItrTest_16_AB_removeFirst_B">
+        <methods>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_16_AB_removeFirst_B -->
+      <class name="ListItrTest_17_AB_removeLast_A">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ListItrTest_17_AB_removeLast_A -->
+      <class name="ListItrTest_35_ABC_removeB_AC">
+        <methods>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ListItrTest_35_ABC_removeB_AC -->
+      <class name="ListItrTest_3_emptyList_addToRearA_A">
+        <methods>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_3_emptyList_addToRearA_A -->
+      <class name="ListItrTest_30_AB_add1C_ACB">
+        <methods>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextNextAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_30_AB_add1C_ACB -->
+      <class name="ListItrTest_42_ABC_set2D_ABD">
+        <methods>
+          <include name="initList"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_42_ABC_set2D_ABD -->
+      <class name="ListItrTest_11_A_addAfterBA_AB">
+        <methods>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_11_A_addAfterBA_AB -->
+      <class name="ListItrTest_33_ABC_removeLast_AB">
+        <methods>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_33_ABC_removeLast_AB -->
+      <class name="ListItrTest_37_ABC_remove0_BC">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_37_ABC_remove0_BC -->
+      <class name="ListItrTest_39_ABC_remove2_AB">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_39_ABC_remove2_AB -->
+      <class name="ListItrTest_2_emptyList_addToFrontA_A">
+        <methods>
+          <include name="initList"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_2_emptyList_addToFrontA_A -->
+      <class name="ListItrTest_32_ABC_removeFirst_BC">
+        <methods>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ListItrTest_32_ABC_removeFirst_BC -->
+      <class name="ListItrTest_28_AB_addC_ABC">
+        <methods>
+          <include name="initList"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_28_AB_addC_ABC -->
+      <class name="ListItrTest_34_ABC_removeA_BC">
+        <methods>
+          <include name="initList"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_34_ABC_removeA_BC -->
+      <class name="ListItrTest_23_AB_addAfterCB_ABC">
+        <methods>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextNextAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_23_AB_addAfterCB_ABC -->
+      <class name="ListItrTest_38_ABC_remove1_AC">
+        <methods>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="initialize"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_38_ABC_remove1_AC -->
+      <class name="ListItrTest_14_A_add0B_BA">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_14_A_add0B_BA -->
+      <class name="ListItrTest_27_AB_set1C_AC">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_27_AB_set1C_AC -->
+      <class name="ListItrTest_40_ABC_set0D_DBC">
+        <methods>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextNextAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_40_ABC_set0D_DBC -->
+      <class name="ListItrTest_24_AB_remove0_B">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="initList"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_24_AB_remove0_B -->
+      <class name="ListItrTest_21_AB_addToRearC_ABC">
+        <methods>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_21_AB_addToRearC_ABC -->
+      <class name="ListItrTest_22_AB_addAfterCA_ACB">
+        <methods>
+          <include name="testListItrNextNextNextAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_22_AB_addAfterCA_ACB -->
+      <class name="ListItrTest_41_ABC_set1D_ADC">
+        <methods>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_41_ABC_set1D_ADC -->
+      <class name="ListItrTest_18_AB_removeA_B">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="initList"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_18_AB_removeA_B -->
+      <class name="ListItrTest_4_emptyList_addA_A">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_4_emptyList_addA_A -->
+      <class name="ListItrTest_10_A_addToRearB_AB">
+        <methods>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_10_A_addToRearB_AB -->
+      <class name="ListItrTest_19_AB_removeB_A">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ListItrTest_19_AB_removeB_A -->
+      <class name="ListItrTest_29_AB_add0C_CAB">
+        <methods>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextAdd_remove"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ListItrTest_29_AB_add0C_CAB -->
+      <class name="ListItrTest_20_AB_addToFrontC_CAB">
+        <methods>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ListItrTest_20_AB_addToFrontC_CAB -->
+      <class name="ListItrTest_26_AB_set0C_CB">
+        <methods>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_26_AB_set0C_CB -->
+      <class name="ListItrTest_15_A_add1B_AB">
+        <methods>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ListItrTest_15_A_add1B_AB -->
+      <class name="ListItrTest_9_A_addToFrontB_BA">
+        <methods>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+        </methods>
+      </class> <!-- ListItrTest_9_A_addToFrontB_BA -->
+      <class name="ListItrTest_36_ABC_removeC_AB">
+        <methods>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextAdd_remove"/>
+          <include name="testListItrNextAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_36_ABC_removeC_AB -->
+    </classes>
+  </test> <!-- IUDoubleLinkedList ListIterator Tests(failed) -->
+</suite> <!-- Failed suite [IUDoubleLinkedList Iterator and ListIterator Tests] -->
